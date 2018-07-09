@@ -39,6 +39,11 @@ RCT_EXPORT_VIEW_PROPERTY(onClickBanner, RCTBubblingEventBlock)
     return testScrollView;
 }
 
+//  指定执行模块里的方法所在的队列
+- (dispatch_queue_t)methodQueue
+{
+  return dispatch_get_main_queue();
+}
 
 #pragma mark SDCycleScrollViewDelegate
 

@@ -1,14 +1,21 @@
 // import {Alert} from 'react-native'
+import { getUserInfo } from '../api'
+
 export default {
     namespace: 'home',
     state: { // 组件的initState
-        name: 'lxc ',
+        name: 'lxc ',   
+        userInfo: {},
+        loading: false 
     },
     //recuder  同步修改state
     reducers: {
         save(state, { payload }) {
             return { ...state, ...payload }
         },
+        setUser(state, {payload}) {
+            return {...state, ...payload}
+        }
     },
     //异步方法写在这里
     //  redux-sage
@@ -24,7 +31,22 @@ export default {
         //     } finally{
         //         yield put({type: 'save', payload: {loading: false}})
         //     }
-            
         // }
+
+
+        *getInfo({payload = {}}, {call, put}){
+            try{
+                yield put({type: 'setUser', payload: {loading: true}})
+                const data = yield call(getUserInfo)
+                yield put({type: 'setUser', payload: { userInfo: data.data.guest} })   
+                yield put({type: 'save', payload: { name: data.data.guest.name} })  
+            }
+            catch(error) {
+                console.log(error)
+            }
+            finally {
+                yield put({type: 'setUser', payload: {loading: false}}) 
+            }
+        }
     }
 }

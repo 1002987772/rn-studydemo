@@ -9,6 +9,7 @@ import {
     ScrollView,
     TouchableHighlight
  } from 'react-native';
+ import { connect } from 'react-redux';
 
 var subscription;
 var CalendarManager = NativeModules.CalendarManager;
@@ -35,10 +36,14 @@ class CustomButton extends React.Component {
     }
   }
 
+ /**
+ * 链接react-redux
+ */
+@connect(({home}) => ({...home}))
 export default class MapView extends Component {
     constructor(props){
         super(props);
-
+        console.log(this.props)
     }
 
   render() {
@@ -57,7 +62,7 @@ export default class MapView extends Component {
                     // pageControlAliment = {TestScrollViewConsts.SDCycleScrollViewPageContolAliment.right}
                     />
                 <Text style={{fontSize: 15, margin: 10, textAlign:'center'}}>
-                    点击banner -> 29929
+                    点击banner -> {this.props.name}
                 </Text>
              </View>
         </View>

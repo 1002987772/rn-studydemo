@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/node_modules/react-native/Libraries/Text/VirtualText/RCTVirtualTextShadowView.m \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/node_modules/react-native/Libraries/Text/VirtualText/RCTVirtualTextShadowView.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextShadowView.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView+Layout.h \
+  /Users/yangzhuo/Documents/文件/ripple/RN/Study/dracaenaclient-master/node_modules/react-native/Libraries/Text/RawText/RCTRawTextShadowView.h

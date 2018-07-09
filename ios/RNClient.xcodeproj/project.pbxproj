@@ -76,11 +76,23 @@
 		C548349C20EE2598003C4CA3 /* back-icon-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = C548348F20EE2597003C4CA3 /* back-icon-mask.png */; };
 		C548349D20EE2598003C4CA3 /* tpl.html in Resources */ = {isa = PBXBuildFile; fileRef = C548349420EE2597003C4CA3 /* tpl.html */; };
 		C548349E20EE2598003C4CA3 /* index.jsbundle.meta in Resources */ = {isa = PBXBuildFile; fileRef = C548349520EE2597003C4CA3 /* index.jsbundle.meta */; };
+		C5706C5720F347D800A2A13D /* CWXJJView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5706C2D20F347D700A2A13D /* CWXJJView.m */; };
 		C5F82B1920EE2D8F00E7EE41 /* QBImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54834A020EE260B003C4CA3 /* QBImagePicker.framework */; };
 		C5F82B1B20EE305600E7EE41 /* RSKImageCropper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F82B1A20EE305600E7EE41 /* RSKImageCropper.framework */; };
 		C5F82B1C20EE305600E7EE41 /* RSKImageCropper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C5F82B1A20EE305600E7EE41 /* RSKImageCropper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C5F82B1E20EE305A00E7EE41 /* QBImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54834A020EE260B003C4CA3 /* QBImagePicker.framework */; };
 		C5F82B1F20EE305A00E7EE41 /* QBImagePicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C54834A020EE260B003C4CA3 /* QBImagePicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C5F82CBB20EF5D3100E7EE41 /* CWCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F82C8D20EF5D3100E7EE41 /* CWCarousel.m */; };
+		C5F82CBC20EF5D3100E7EE41 /* CWFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F82C8F20EF5D3100E7EE41 /* CWFlowLayout.m */; };
+		C5F82CC320EF5E1900E7EE41 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5F82CBE20EF5E1800E7EE41 /* 01.jpg */; };
+		C5F82CC420EF5E1900E7EE41 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5F82CBF20EF5E1800E7EE41 /* 03.jpg */; };
+		C5F82CC520EF5E1900E7EE41 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5F82CC020EF5E1800E7EE41 /* 02.jpg */; };
+		C5F82CC620EF5E1900E7EE41 /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5F82CC120EF5E1800E7EE41 /* 04.jpg */; };
+		C5F82CC720EF5E1900E7EE41 /* 轮播图示例.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5F82CC220EF5E1800E7EE41 /* 轮播图示例.gif */; };
+		C5F82CCD20EF620000E7EE41 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F82CCC20EF620000E7EE41 /* TestViewController.m */; };
+		C5F82CD020EF62A100E7EE41 /* PushNative.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F82CCF20EF62A100E7EE41 /* PushNative.m */; };
+		C5F82CD320EF694C00E7EE41 /* CWCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F82CD220EF694C00E7EE41 /* CWCarouselView.m */; };
+		C5F82CD620EF69E900E7EE41 /* CWCarouselViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F82CD520EF69E900E7EE41 /* CWCarouselViewManager.m */; };
 		E70AC0449B654D6CAE331F20 /* libRNSVG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB5F6D1160D434FA2DE45E6 /* libRNSVG.a */; };
 /* End PBXBuildFile section */
 
@@ -492,7 +504,28 @@
 		C548349420EE2597003C4CA3 /* tpl.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tpl.html; sourceTree = "<group>"; };
 		C548349520EE2597003C4CA3 /* index.jsbundle.meta */ = {isa = PBXFileReference; lastKnownFileType = file; path = index.jsbundle.meta; sourceTree = "<group>"; };
 		C54834A020EE260B003C4CA3 /* QBImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QBImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5706C2D20F347D700A2A13D /* CWXJJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWXJJView.m; sourceTree = "<group>"; };
+		C5706C5620F347D700A2A13D /* CWXJJView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWXJJView.h; sourceTree = "<group>"; };
 		C5F82B1A20EE305600E7EE41 /* RSKImageCropper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RSKImageCropper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F82C8D20EF5D3100E7EE41 /* CWCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWCarousel.m; sourceTree = "<group>"; };
+		C5F82C8E20EF5D3100E7EE41 /* CWCarouselHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWCarouselHeader.h; sourceTree = "<group>"; };
+		C5F82C8F20EF5D3100E7EE41 /* CWFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWFlowLayout.m; sourceTree = "<group>"; };
+		C5F82C9020EF5D3100E7EE41 /* CWCarouselProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWCarouselProtocol.h; sourceTree = "<group>"; };
+		C5F82C9120EF5D3100E7EE41 /* CWCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWCarousel.h; sourceTree = "<group>"; };
+		C5F82C9220EF5D3100E7EE41 /* CWFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWFlowLayout.h; sourceTree = "<group>"; };
+		C5F82CBE20EF5E1800E7EE41 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		C5F82CBF20EF5E1800E7EE41 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		C5F82CC020EF5E1800E7EE41 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		C5F82CC120EF5E1800E7EE41 /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = "<group>"; };
+		C5F82CC220EF5E1800E7EE41 /* 轮播图示例.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "轮播图示例.gif"; sourceTree = "<group>"; };
+		C5F82CCB20EF620000E7EE41 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		C5F82CCC20EF620000E7EE41 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		C5F82CCE20EF62A100E7EE41 /* PushNative.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNative.h; sourceTree = "<group>"; };
+		C5F82CCF20EF62A100E7EE41 /* PushNative.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushNative.m; sourceTree = "<group>"; };
+		C5F82CD120EF694C00E7EE41 /* CWCarouselView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWCarouselView.h; sourceTree = "<group>"; };
+		C5F82CD220EF694C00E7EE41 /* CWCarouselView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWCarouselView.m; sourceTree = "<group>"; };
+		C5F82CD420EF69E900E7EE41 /* CWCarouselViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWCarouselViewManager.h; sourceTree = "<group>"; };
+		C5F82CD520EF69E900E7EE41 /* CWCarouselViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWCarouselViewManager.m; sourceTree = "<group>"; };
 		D55D8AEB3C02423E81677E9D /* libRNSVG-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNSVG-tvOS.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -639,6 +672,8 @@
 		13B07FAE1A68108700A75B9A /* RNClient */ = {
 			isa = PBXGroup;
 			children = (
+				C5F82CBD20EF5E1800E7EE41 /* Sources */,
+				C5F82C8C20EF5D3100E7EE41 /* Carousel */,
 				C548348020EE2597003C4CA3 /* bundle */,
 				C548344E20EE14D8003C4CA3 /* SDWebImage */,
 				C548343120EE11E9003C4CA3 /* SDCycleScrollView */,
@@ -781,6 +816,10 @@
 				C54833F520EE01ED003C4CA3 /* CalendarManager.m */,
 				C54833F220EDFB51003C4CA3 /* MapManager.h */,
 				C54833F320EDFB51003C4CA3 /* MapManager.m */,
+				C5F82CCB20EF620000E7EE41 /* TestViewController.h */,
+				C5F82CCC20EF620000E7EE41 /* TestViewController.m */,
+				C5F82CCE20EF62A100E7EE41 /* PushNative.h */,
+				C5F82CCF20EF62A100E7EE41 /* PushNative.m */,
 			);
 			name = Native;
 			sourceTree = "<group>";
@@ -991,6 +1030,37 @@
 				C5F82B5A20EF151D00E7EE41 /* libRNSVG-tvOS.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C5F82C8C20EF5D3100E7EE41 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				C5706C5620F347D700A2A13D /* CWXJJView.h */,
+				C5706C2D20F347D700A2A13D /* CWXJJView.m */,
+				C5F82C8D20EF5D3100E7EE41 /* CWCarousel.m */,
+				C5F82C8E20EF5D3100E7EE41 /* CWCarouselHeader.h */,
+				C5F82C8F20EF5D3100E7EE41 /* CWFlowLayout.m */,
+				C5F82C9020EF5D3100E7EE41 /* CWCarouselProtocol.h */,
+				C5F82C9120EF5D3100E7EE41 /* CWCarousel.h */,
+				C5F82C9220EF5D3100E7EE41 /* CWFlowLayout.h */,
+				C5F82CD120EF694C00E7EE41 /* CWCarouselView.h */,
+				C5F82CD220EF694C00E7EE41 /* CWCarouselView.m */,
+				C5F82CD420EF69E900E7EE41 /* CWCarouselViewManager.h */,
+				C5F82CD520EF69E900E7EE41 /* CWCarouselViewManager.m */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		C5F82CBD20EF5E1800E7EE41 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C5F82CBE20EF5E1800E7EE41 /* 01.jpg */,
+				C5F82CBF20EF5E1800E7EE41 /* 03.jpg */,
+				C5F82CC020EF5E1800E7EE41 /* 02.jpg */,
+				C5F82CC120EF5E1800E7EE41 /* 04.jpg */,
+				C5F82CC220EF5E1800E7EE41 /* 轮播图示例.gif */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1471,13 +1541,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F82CC420EF5E1900E7EE41 /* 03.jpg in Resources */,
 				C548349620EE2598003C4CA3 /* index.jsbundle in Resources */,
 				C548349720EE2598003C4CA3 /* user-cool.png in Resources */,
+				C5F82CC520EF5E1900E7EE41 /* 02.jpg in Resources */,
+				C5F82CC320EF5E1900E7EE41 /* 01.jpg in Resources */,
+				C5F82CC620EF5E1900E7EE41 /* 04.jpg in Resources */,
 				C548349E20EE2598003C4CA3 /* index.jsbundle.meta in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				C548349A20EE2598003C4CA3 /* back-icon@2x.png in Resources */,
 				C548349820EE2598003C4CA3 /* user-hp.png in Resources */,
+				C5F82CC720EF5E1900E7EE41 /* 轮播图示例.gif in Resources */,
 				C548349920EE2598003C4CA3 /* back-icon@3x.png in Resources */,
 				C548349D20EE2598003C4CA3 /* tpl.html in Resources */,
 				C548349C20EE2598003C4CA3 /* back-icon-mask.png in Resources */,
@@ -1550,21 +1625,28 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				C548347220EE14D8003C4CA3 /* SDWebImageManager.m in Sources */,
 				C548344220EE11E9003C4CA3 /* UIView+SDExtension.m in Sources */,
+				C5F82CD320EF694C00E7EE41 /* CWCarouselView.m in Sources */,
 				C548344320EE11E9003C4CA3 /* SDCollectionViewCell.m in Sources */,
 				C548344720EE11E9003C4CA3 /* TAAbstractDotView.m in Sources */,
+				C5706C5720F347D800A2A13D /* CWXJJView.m in Sources */,
 				C54833F720EE01ED003C4CA3 /* CalendarManager.m in Sources */,
+				C5F82CD020EF62A100E7EE41 /* PushNative.m in Sources */,
 				C548347A20EE14D8003C4CA3 /* SDImageCache.m in Sources */,
 				C548344D20EE120D003C4CA3 /* TestScrollView.m in Sources */,
 				C548347320EE14D8003C4CA3 /* SDWebImageDecoder.m in Sources */,
 				C54833F420EDFB51003C4CA3 /* MapManager.m in Sources */,
 				C548347720EE14D8003C4CA3 /* UIImage+MultiFormat.m in Sources */,
+				C5F82CD620EF69E900E7EE41 /* CWCarouselViewManager.m in Sources */,
 				C548347820EE14D8003C4CA3 /* SDWebImageCompat.m in Sources */,
 				C548344420EE11E9003C4CA3 /* TADotView.m in Sources */,
+				C5F82CCD20EF620000E7EE41 /* TestViewController.m in Sources */,
 				C548347120EE14D8003C4CA3 /* MKAnnotationView+WebCache.m in Sources */,
 				C548347920EE14D8003C4CA3 /* SDWebImagePrefetcher.m in Sources */,
 				C548347C20EE14D8003C4CA3 /* NSData+ImageContentType.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				C548344120EE11E9003C4CA3 /* SDCycleScrollView.m in Sources */,
+				C5F82CBC20EF5D3100E7EE41 /* CWFlowLayout.m in Sources */,
+				C5F82CBB20EF5D3100E7EE41 /* CWCarousel.m in Sources */,
 				C548347520EE14D8003C4CA3 /* SDWebImageDownloader.m in Sources */,
 				C548344620EE11E9003C4CA3 /* TAAnimatedDotView.m in Sources */,
 				C548347020EE14D8003C4CA3 /* UIImage+WebP.m in Sources */,

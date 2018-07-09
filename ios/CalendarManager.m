@@ -26,6 +26,12 @@ RCT_EXPORT_MODULE()
 }
 */
 
+//  指定执行模块里的方法所在的队列
+- (dispatch_queue_t)methodQueue
+{
+  return dispatch_get_main_queue();
+}
+
 - (void)showInfo:(NSString *)info
 {
     //  更新UI操作在主线程中执行
